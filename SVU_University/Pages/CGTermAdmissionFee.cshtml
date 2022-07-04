@@ -1,0 +1,73 @@
+﻿@page
+@model SVU_University.Pages.CGTermAdmissionFeeModel
+@{
+    ViewData["Title"] = "TermAdmissionFeeList";
+}
+
+        <div class="section-body">
+          <h2 class="section-title"> Term Admission Fee Details </h2>
+          <div class="container-fluid">
+            <div class="tab-content">
+             
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Roll No.">
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Department">
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="input-group">
+                          <input data-provide="datepicker" data-date-autoclose="true" class="form-control" placeholder="Admission Date">
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6"> <a href="#" class="btn btn-primary btn-lg btn-block" title="">Search</a> </div>
+                      <div class="col-lg-1 col-md-4 col-sm-6 mt-1"> <a href="CGTermAdmissionFeeAdd" class="btn btn-outline-primary btn-rounded "> Add New <i class="fa-solid fa-plus"></i> </a> </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-responsive card">
+                  <table class="table table-hover table-vcenter table-striped mb-0 text-nowrap" data-list="">
+                    <thead>
+                      <tr>
+                        <th>Batch</th>
+                        <th>Course Group</th>
+                        <th>Medium</th>
+                        <th>Academic Period</th>
+                        <th>Fee Group</th>
+                        <th>Fee Amount</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td> 2001 </td>
+                        <td> B.Com (Accounts) </td>
+                        <td> Telugu </td>
+                        <td> 3 </td>
+                        <td> Exam Fee </td>
+                        <td> ₹ 1500 </td>
+                        <td> Available </td>
+                        <td>  <a href="CGTermAdmissionFeeView" class="btn btn-icon text-dark btn-sm" title="View"><i class="fa fa-eye"></i></a> 
+                              <a href="CGTermAdmissionFeeUpdate" class="btn btn-icon btn-sm" title="Edit"><i class="fa fa-edit"></i></a> 
+                              <a href="CGTermAdmissionFeeDelete" class="btn btn-sm js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash text-danger"></i></a> 
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+          </div>
+        </div>

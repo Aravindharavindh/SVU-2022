@@ -1,0 +1,174 @@
+﻿@page
+@model SVU_University.Pages.CentreAddModel
+@{
+    ViewData["Title"] = "CentreAdd";
+}
+
+        <div class="section-body">
+          <h2 class="section-title"> Add Centre Details </h2>
+          <div class="row">
+            <div class="tab-content col-xl-12 col-lg-12 col-md-12 col-sm-12 m-auto">
+              <div class="card">
+                <div class="card-body">
+                  <div class="tab-content" id="myTabContent2">
+                    <div class="tab-pane fade show active" id="aform" role="tabpanel" aria-labelledby="aform-tab3">
+                        
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label> Centre Code <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label> Centre Title <span class="required ml-1">*</span></label>
+                              <select class="form-control select2" data-placeholder="Study Centre Name" tabindex="-1" aria-hidden="true">
+                                <option value="0" selected="">Select Centre Title </option>
+                                <option value="0111">0111 - L.N.  GOVERNMENT COLLEGE, PONNERI</option>
+                                <option value="0121">0121 - SRI SANKARA ARTS &amp; SCIENCE COLLEGE FOR MEN, ENATHOOR, KANCHEEPURAM</option>
+                                <option value="0122">0122 - SRI SANKARA ARTS &amp; SCIENCE COLLEGE FOR MEN, ENATHOOR, KANCHEEPURAM</option>
+                                <option value="0171">0171 - MADRAS CHRISTIAN COLLEGE, TAMBARAM, CHENNAI</option>
+                                <option value="0172">0172 - MADRAS CHRISTIAN COLLEGE, TAMBARAM, CHENNAI</option>
+                                <option value="1303">1303 - DR.AMBEDKAR GOVERNMENT ARTS COLLEGE, VYASARPADI, CHENNAI</option>
+                                <option value="1307">1307 - D.B. JAIN COLLEGE, THORAPAKKAM, CHENNAI</option>
+                                <option value="1308">1308 - D.B. JAIN COLLEGE, THORAPAKKAM, CHENNAI</option>
+                                <option value="1309">1309 - D.G. VAISHNAV COLLEGE, ARUMBAKKAM, CHENNAI</option>
+                                <option value="1310">1310 - D.G. VAISHNAV COLLEGE, ARUMBAKKAM, CHENNAI</option>
+                                <option value="1311">1311 - GOVERNMENT ARTS COLLEGE FOR MEN, NANDANAM, CHENNAI</option>
+                                <option value="1313">1313 - GURU NANAK COLLEGE, VELACHERY, CHENNAI</option>
+                                <option value="1314">1314 - GURU NANAK COLLEGE, VELACHERY, CHENNAI</option>
+                                <option value="1315">1315 - LOYOLA COLLEGE, CHENNAI</option>
+                                <option value="1316">1316 - LOYOLA COLLEGE, CHENNAI</option>
+                                <option value="1317">1317 - THE NEW COLLEGE, CHENNAI</option>
+                                <option value="1318">1318 - THE NEW COLLEGE, CHENNAI</option>
+                                <option value="1321">1321 - PRESIDENCY COLLEGE, CHENNAI</option>
+                                <option value="1327">1327 - VIVEKANANDA COLLEGE, MYLAPORE, CHENNAI.</option>
+                                <option value="1328">1328 - VIVEKANANDA COLLEGE, MYLAPORE, CHENNAI.</option>
+                                <option value="1331">1331 - ETHIRAJ COLLEGE, CHENNAI</option>
+                                <option value="1332">1332 - ETHIRAJ COLLEGE, CHENNAI</option>
+                                <option value="1333">1333 - BHARATHI WOMEN'S COLLEGE NORTH CHENNAI, CHENNAI</option>
+                                <option value="1335">1335 - MEENAKSHI COLLEGE FOR WOMEN, CHENNAI</option>
+                                <option value="1337">1337 - QUAID-E-MILLET GOVERNMENT ARTS COLLEGE FOR (W) CHENNAI</option>
+                                <option value="1339">1339 - QUEEN MARY'S COLLEGE, MYLAPORE, CHENNAI</option>
+                                <option value="1341">1341 - S.D.N.B. VAISHNAV COLLEGE FOR WOMEN, CHROMPET, CHENNAI</option>
+                                <option value="1342">1342 - S.D.N.B. VAISHNAV COLLEGE FOR WOMEN, CHROMPET, CHENNAI</option>
+                                <option value="1343">1343 - J.B.A.S. WOMEN'S COLLEGE, TEYNAMPET, CHENNAI</option>
+                                <option value="1344">1344 - J.B.A.S. WOMEN'S COLLEGE, TEYNAMPET, CHENNAI</option>
+                                <option value="1345">1345 - STELLA MARIS COLLEGE, CHENNAI</option>
+                                <option value="1346">1346 - STELLA MARIS COLLEGE, CHENNAI</option>
+                                <option value="1347">1347 - WOMEN'S CHRISTIAN COLLEGE, COLLEGE ROAD, CHENNAI</option>
+                                <option value="1348">1348 - WOMEN'S CHRISTIAN COLLEGE, COLLEGE ROAD, CHENNAI</option>
+                                <option value="1371">1371 - M.O.P. VAISHNAV COLLEGE FOR WOMEN, NUNGAMBAKKAM</option>
+                                <option value="1372">1372 - M.O.P. VAISHNAV COLLEGE FOR WOMEN, NUNGAMBAKKAM</option>
+                                <option value="1578">1578 - THE MADRAS SCHOOL OF SOCIAL WORK, EGMORE, CHENNAI</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-2">
+                            <div class="form-group">
+                              <label> Door No. <span class="required ml-1">*</span></label>
+                              <input type="number" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label> Street <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Location <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Area <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> City <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> District <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> State <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Country <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Pincode <span class="required ml-1">*</span></label>
+                              <input type="number" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Mobile No. <span class="required ml-1">*</span></label>
+                              <input type="number" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label> Email ID <span class="required ml-1">*</span></label>
+                              <input type="email" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label> Website <span class="required ml-1">*</span></label>
+                              <input type="url" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Logo <span class="required ml-1">*</span></label>
+                              <input type="file" class="form-control "> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label>Status<span class="required ml-1">*</span> </label>
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> Select Status </option>
+                                <option value="1"> Available </option>
+                                <option value="2"> Blocked </option>
+                                <option value="3"> Deleted </option>
+                                <option value="4"> Removed </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                             <a href="Centre" class="btn btn-dark"> <i class="fas fa-arrow-left"></i> Back </a>
+                          </div> 
+                          <div class="col-md-6 text-right">
+                              <button class="btn btn-primary btnNext text-end"> Continue <i class="fas fa-arrow-right"></i></button>
+                          </div>
+                        </div>																
+                      </div>
+
+                    </div>															
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>

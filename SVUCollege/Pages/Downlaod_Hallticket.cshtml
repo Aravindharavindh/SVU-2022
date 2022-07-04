@@ -1,0 +1,108 @@
+﻿@page
+@model SVUCollege.Pages.Downlaod_HallticketModel
+@{
+    ViewData["Title"] = "Download_Hallticket";
+}
+
+    <div class="main-content">
+       <section class="section">
+           <div class="section-body">
+               <div class="section-title"> DOWNLOAD HALLTICKET </div>
+                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">  
+                            <div class="col-md-12">
+                                <form>
+                                    <div class="form-group row">
+                                        <div class="col-md-6">
+                                            <select class="form-control select2">
+                                                <option value="0" selected="">All Courses</option>
+                                                <option value="1">B.A (HEP)</option>
+                                                <option value="2">B.A (HPE)</option>
+                                                <option value="3">B.A (HPP)</option>
+                                                <option value="3">B.A (OUS) HEP</option>
+                                                <option value="3">B.Com (Regular)</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select class="form-control select2">
+                                                <option value="0" selected="">All Years</option>
+                                                <option value="1">1st Year</option>
+                                                <option value="2">2nd Year</option>
+                                                <option value="3">3rd Year</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2 float-right"> <a href="#" class="btn btn-primary btn-lg btn-block p-2" title="">Search</a> </div>
+                                    </div>
+                                </form>
+                            </div>
+                          </div>  
+                        </div>
+                   </div> 
+
+                   <div class="col-md-12">
+                       <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                        <table class="table table-striped" id="table-2">
+                                            <thead>
+                                                <tr>
+                                                    <th> <label> # </label> </th>
+                                                    <th> <label> Course </label> </th>
+                                                    <th> <label> Year </label> </th>
+                                                    <th> <label> No. of Students </label> </th>
+                                                    <th> <label> Download HallTickets </label> </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> 1. </td>
+                                                    <td> Bachelor of Arts - B.A (HEP) </td>
+                                                    <td> 1st Year </td>
+                                                    <td> 5 </td>
+                                                    <td> <a id="download-button" href="#" class="btn btn-primary" style=""> <i class="fa-solid fa-download"></i> Download Halltickets</a> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 2. </td>
+                                                    <td> Bachelor of Arts - B.A (HPE) </td>
+                                                    <td> 2nd Year </td>
+                                                    <td> 5 </td>
+                                                    <td> <a id="download-button" href="#" class="btn btn-primary" style=""> <i class="fa-solid fa-download"></i> Download Halltickets</a> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 3. </td>
+                                                    <td> Bachelor of Arts - B.A (HPP) </td>
+                                                    <td> 3rd Year </td>
+                                                    <td> 5 </td>
+                                                    <td> <a id="download-button" href="#" class="btn btn-primary" style=""> <i class="fa-solid fa-download"></i> Download Halltickets</a> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 4. </td>
+                                                    <td> Bachelor of Arts - B.A (OUS) HEP </td>
+                                                    <td> 1st Year </td>
+                                                    <td> 5 </td>
+                                                    <td> <a id="download-button" href="#" class="btn btn-primary" style=""> <i class="fa-solid fa-download"></i> Download Halltickets</a> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> 5. </td>
+                                                    <td> Bachelor of Commerse - B.Com (Regular) </td>
+                                                    <td> 3rd Year </td>
+                                                    <td> 5 </td>
+                                                    <td> <a id="download-button" href="#" class="btn btn-primary" style=""> <i class="fa-solid fa-download"></i> Download Halltickets</a> 
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+           </div>
+       </section>
+    </div>

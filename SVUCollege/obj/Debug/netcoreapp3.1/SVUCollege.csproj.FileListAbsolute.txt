@@ -1,0 +1,225 @@
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.exe
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.deps.json
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.json
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.dev.json
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.dll
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.AssemblyReference.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfoInputs.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfo.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CoreCompileInputs.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\staticwebassets\SVUCollege.StaticWebAssets.Manifest.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.input.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.output.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorCoreGenerate.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_application.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_details.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cs
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.genruntimeconfig.cache
+E:\Projects\NetCore\KSP\SVUCollege\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CopyComplete
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.exe
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.deps.json
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.json
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.dev.json
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.dll
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.AssemblyReference.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfoInputs.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfo.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CoreCompileInputs.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\staticwebassets\SVUCollege.StaticWebAssets.Manifest.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.input.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.output.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorCoreGenerate.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Apply_Examination.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Downlaod_Hallticket.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Fee.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\FeeDetails.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Profile.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_application.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_details.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cs
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.genruntimeconfig.cache
+E:\Projects\NetCore\KSP\SVUAdmin - Copy\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CopyComplete
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.exe
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.deps.json
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.json
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.dev.json
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.dll
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.AssemblyReference.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfoInputs.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfo.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CoreCompileInputs.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\staticwebassets\SVUCollege.StaticWebAssets.Manifest.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.input.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.output.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorCoreGenerate.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Apply_Examination.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Downlaod_Hallticket.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Fee.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\FeeDetails.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Profile.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_application.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_details.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.genruntimeconfig.cache
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CopyComplete
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\login.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_CommonLayout.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index1.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\forgotpassword.cshtml.g.cs
+E:\Projects\NetCore\SVU\SVU_College\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\paymentstatus.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.exe
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.deps.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.dev.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.dll
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.AssemblyReference.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfoInputs.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfo.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CoreCompileInputs.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\staticwebassets\SVUCollege.StaticWebAssets.Manifest.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.input.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.output.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorCoreGenerate.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Apply_Examination.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Downlaod_Hallticket.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Fee.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\FeeDetails.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\forgotpassword.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index1.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\login.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\paymentstatus.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Profile.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_CommonLayout.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_application.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_details.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.genruntimeconfig.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CopyComplete
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.exe
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.deps.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.runtimeconfig.dev.json
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.dll
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\bin\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.AssemblyReference.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfoInputs.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.AssemblyInfo.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CoreCompileInputs.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorAssemblyInfo.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\staticwebassets\SVUCollege.StaticWebAssets.Manifest.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.input.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.TagHelpers.output.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorCoreGenerate.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Apply_Examination.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Downlaod_Hallticket.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Fee.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\FeeDetails.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\forgotpassword.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Index1.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\login.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\paymentstatus.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Profile.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_CommonLayout.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_application.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\Student_details.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.RazorTargetAssemblyInfo.cs
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.Views.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.dll
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.pdb
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.genruntimeconfig.cache
+E:\Projects\NetCore\UniversityApplication\SVUDDE\SVUCollege\obj\Debug\netcoreapp3.1\SVUCollege.csproj.CopyComplete

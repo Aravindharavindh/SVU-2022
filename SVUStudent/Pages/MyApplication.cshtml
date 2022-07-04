@@ -1,0 +1,1026 @@
+﻿@page
+@model SVUStudent.Pages.MyApplicationModel
+@{
+    ViewData["Title"] = "MyApplication";
+}
+
+   <main id="app">
+     <div class="main-content">
+      <section class="section">
+        <div class="section-body">
+          <div class="card">
+          <div class="card-body">    
+              <div class="container">
+                <div class="tab-content">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <ul class="nav nav-pills wizard-steps mytab" id="myTab3" role="tablist">
+                          <li class="nav-item"> <div class="nav-link wizard-step wizard-step-active" id="aform-tab3" data-toggle="tab" href="#aform" role="tab" aria-controls="aforms" aria-selected="true">
+                            <div class="wizard-step-icon"><i class="fas fa-regular fa-file-lines mr-2"></i></div>
+                            <div class="wizard-step-label">Application Form</div>
+                            </div> </li>
+                          <li class="nav-item"> <a class="nav-link wizard-step wizard-step-active" id="qualification-tab3" data-toggle="tab" href="#qualification" role="tab" aria-controls="qualification" aria-selected="false">
+                            <div class="wizard-step-icon"><i class="fas fa-certificate mr-2"></i></div>
+                            <div class="wizard-step-label">Educational Qualification</div>
+                            </a> </li>
+                          <li class="nav-item"> <a class="nav-link wizard-step wizard-step-active" id="dupload-tab3" data-toggle="tab" href="#dupload" role="tab" aria-controls="dupload" aria-selected="false">
+                            <div class="wizard-step-icon"> <i class="fas fa-upload mr-2"></i> </div>
+                            <div class="wizard-step-label"> Document Upload </div>
+                            </a> </li>
+                          <li class="nav-item"> <a class="nav-link wizard-step wizard-step-active" id="payments-tab3" data-toggle="tab" href="#payments" role="tab" aria-controls="payments" aria-selected="false">
+                            <div class="wizard-step-icon"> <i class="fas fa-upload mr-2"></i> </div>
+                            <div class="wizard-step-label"> Preview Application </div>
+                            </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="tab-content" id="myTabContent2">
+                        <div class="tab-pane fade show active" id="aform" role="tabpanel" aria-labelledby="aform-tab3">
+                      
+                          <div class="card-body">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Online Application ID <span class="required ml-1">*</span></label>
+                                  <lable type="text" class="form-control ">SVU-MCC0221342345</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Study Centre Name<span class="required ml-1">*</span> </label>
+                                  <select class="form-control select2" data-placeholder="Study Centre Name">
+                                    <option value="0" selected>Select sCentre Name </option>
+                                    <option value="0111">0111 - L.N.  GOVERNMENT COLLEGE, PONNERI</option>
+                                    <option value="0121">0121 - SRI SANKARA ARTS &amp; SCIENCE COLLEGE FOR MEN, ENATHOOR, KANCHEEPURAM</option>
+                                    <option value="0122">0122 - SRI SANKARA ARTS &amp; SCIENCE COLLEGE FOR MEN, ENATHOOR, KANCHEEPURAM</option>
+                                    <option value="0171">0171 - MADRAS CHRISTIAN COLLEGE, TAMBARAM, CHENNAI</option>
+                                    <option value="0172">0172 - MADRAS CHRISTIAN COLLEGE, TAMBARAM, CHENNAI</option>
+                                    <option value="1303">1303 - DR.AMBEDKAR GOVERNMENT ARTS COLLEGE, VYASARPADI, CHENNAI</option>
+                                    <option value="1307">1307 - D.B. JAIN COLLEGE, THORAPAKKAM, CHENNAI</option>
+                                    <option value="1308">1308 - D.B. JAIN COLLEGE, THORAPAKKAM, CHENNAI</option>
+                                    <option value="1309">1309 - D.G. VAISHNAV COLLEGE, ARUMBAKKAM, CHENNAI</option>
+                                    <option value="1310">1310 - D.G. VAISHNAV COLLEGE, ARUMBAKKAM, CHENNAI</option>
+                                    <option value="1311">1311 - GOVERNMENT ARTS COLLEGE FOR MEN, NANDANAM, CHENNAI</option>
+                                    <option value="1313">1313 - GURU NANAK COLLEGE, VELACHERY, CHENNAI</option>
+                                    <option value="1314">1314 - GURU NANAK COLLEGE, VELACHERY, CHENNAI</option>
+                                    <option value="1315">1315 - LOYOLA COLLEGE, CHENNAI</option>
+                                    <option value="1316">1316 - LOYOLA COLLEGE, CHENNAI</option>
+                                    <option value="1317">1317 - THE NEW COLLEGE, CHENNAI</option>
+                                    <option value="1318">1318 - THE NEW COLLEGE, CHENNAI</option>
+                                    <option value="1321">1321 - PRESIDENCY COLLEGE, CHENNAI</option>
+                                    <option value="1327">1327 - VIVEKANANDA COLLEGE, MYLAPORE, CHENNAI.</option>
+                                    <option value="1328">1328 - VIVEKANANDA COLLEGE, MYLAPORE, CHENNAI.</option>
+                                    <option value="1331">1331 - ETHIRAJ COLLEGE, CHENNAI</option>
+                                    <option value="1332">1332 - ETHIRAJ COLLEGE, CHENNAI</option>
+                                    <option value="1333">1333 - BHARATHI WOMEN'S COLLEGE NORTH CHENNAI, CHENNAI</option>
+                                    <option value="1335">1335 - MEENAKSHI COLLEGE FOR WOMEN, CHENNAI</option>
+                                    <option value="1337">1337 - QUAID-E-MILLET GOVERNMENT ARTS COLLEGE FOR (W) CHENNAI</option>
+                                    <option value="1339">1339 - QUEEN MARY'S COLLEGE, MYLAPORE, CHENNAI</option>
+                                    <option value="1341">1341 - S.D.N.B. VAISHNAV COLLEGE FOR WOMEN, CHROMPET, CHENNAI</option>
+                                    <option value="1342">1342 - S.D.N.B. VAISHNAV COLLEGE FOR WOMEN, CHROMPET, CHENNAI</option>
+                                    <option value="1343">1343 - J.B.A.S. WOMEN'S COLLEGE, TEYNAMPET, CHENNAI</option>
+                                    <option value="1344">1344 - J.B.A.S. WOMEN'S COLLEGE, TEYNAMPET, CHENNAI</option>
+                                    <option value="1345">1345 - STELLA MARIS COLLEGE, CHENNAI</option>
+                                    <option value="1346">1346 - STELLA MARIS COLLEGE, CHENNAI</option>
+                                    <option value="1347">1347 - WOMEN'S CHRISTIAN COLLEGE, COLLEGE ROAD, CHENNAI</option>
+                                    <option value="1348">1348 - WOMEN'S CHRISTIAN COLLEGE, COLLEGE ROAD, CHENNAI</option>
+                                    <option value="1371">1371 - M.O.P. VAISHNAV COLLEGE FOR WOMEN, NUNGAMBAKKAM</option>
+                                    <option value="1372">1372 - M.O.P. VAISHNAV COLLEGE FOR WOMEN, NUNGAMBAKKAM</option>
+                                    <option value="1578">1578 - THE MADRAS SCHOOL OF SOCIAL WORK, EGMORE, CHENNAI</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Course Type <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-book-atlas"></i> </div>
+                                    </div>
+                                    <select class="form-control select2" data-placeholder="Study Course Type">
+                                      <option value="0" selected>Select Course Type </option>
+                                      <option value="2">UNDERGRADUATE</option>
+                                      <option value="3">POSTGRADUATE</option>
+                                      <option value="4">RESEARCH</option>
+                                      <option value="5">DIPLOMA</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Course Names <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-book-reader"></i> </div>
+                                    </div>
+                                    <select class="form-control select2" data-placeholder="Study Centre Name">
+                                      <option value="0" selected>Select Course </option>
+                                      <option value="1">B.Sc. Biotechnology</option>
+                                      <option value="2">B.Sc. Visual Communication</option>
+                                      <option value="6">B.Sc. Computer Science</option>
+                                      <option value="7">B.Sc. Microbiology</option>
+                                      <option value="10">B.B.A. Business Administration</option>
+                                      <option value="11">B.Com. (General) </option>
+                                      <option value="12">B.C.A. Computer Applications</option>
+                                      <option value="13">B.Sc. Electronic Media</option>
+                                      <option value="27">B.Com Corporate Secretaryship</option>
+                                      <option value="28">B.Com Bank Management</option>
+                                      <option value="30">B.Sc. Mathematics</option>
+                                      <option value="37">BA English Literature</option>
+                                      <option value="38">B.Com Computer Applications</option>
+                                      <option value="47">B.Com. Accounting &amp; Finance</option>
+                                      <option value="53">BSW - Social Work</option>
+                                      <option value="59">B.Sc PSYCHOLOGY</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Applicant’s Name <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control phone-number" placeholder="Enter your Applicant’s Name">
+                                    <!-- <span>Note: Enter name as per mark sheet. Name followed by initials. Eg. RAM S</span>  -->
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Parent’s / Guardian Name <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control phone-number" placeholder="Enter your Parent’s / Guardian Names">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Date of Birth <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-calendar"></i> </div>
+                                    </div>
+                                    <input type="date" class="form-control ">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Gender<span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-venus-mars"></i> </div>
+                                    </div>
+                                    <select class="form-control select2" data-placeholder="Study Gender">
+                                      <option value="0" selected>Select Gender </option>
+                                      <option value="1">Males</option>
+                                      <option value="2">Female</option>
+                                      <option value="3">Transgender</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Phone Number <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-phone"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control phone-number" placeholder="Enter Your Mobile Number">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Alternate phone number</label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-phone"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control phone-number" placeholder="Enter Your Alternate Phone Number">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Aadhaar Number <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-id-card"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your Aadhaar Numberss">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Email Id <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fas fa-envelope-open"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your Email ID">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Religion <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-star-of-david"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your Religion ">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Communal Category: <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-group-arrows-rotate"></i> </div>
+                                    </div>
+                                    <select class="form-control select2">
+                                      <option selected="selected" value=""> - Select Category -</option>
+                                      <option value="1">Scheduled Tribe (ST)</option>
+                                      <option value="2">Scheduled Caste (SC)</option>
+                                      <option value="3">Scheduled Caste-Arunthathiar (SCA)</option>
+                                      <option value="4">Most Backward Class (MBC)</option>
+                                      <option value="9">Most Backward Class (MBC)</option>
+                                      <option value="5">Most Backward Class and Denotified Community (MBC &amp; DC)</option>
+                                      <option value="6">Backward Class (BC)</option>
+                                      <option value="7">Backward Class-Muslim (BCM)</option>
+                                      <option value="8">Others</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Are you a Differently Abled Person <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-wheelchair-move"></i> </div>
+                                    </div>
+                                    <select class="form-control select2">
+                                      <option selected="selected" value=""> - Select Abled Person -</option>
+                                      <option value="1">Yes</option>
+                                      <option value="2">No</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Martial Status: <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-group-arrows-rotate"></i> </div>
+                                    </div>
+                                    <select class="form-control select2">
+                                      <option selected="selected" value=""> - Select Martial -</option>
+                                      <option value="1">Yes</option>
+                                      <option value="2">No</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Nationality <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-flag"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your Nationality ">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Second Language <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-language"></i> </div>
+                                    </div>
+                                    <select class="form-control select2">
+                                      <option selected="selected" value=""> - Select Second Language -</option>
+                                      <option value="1">Yes</option>
+                                      <option value="2">No</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Address line 1 <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-address-book"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your Address ">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>District <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-map"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your District ">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>State <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-map-location-dot"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your State ">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Pincode <span class="required ml-1">*</span></label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"> <i class="fa-solid fa-location-dot"></i> </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your Pincode ">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                  <label class="form-check-label" for="flexCheckChecked"> I Certify that the above Particulars are found correct. Iam aware that the Particulars furnished furnished by me cannot be edited after submission of this application. </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-footer text-right">
+                            <button class="btn btn-primary btnNext" >Save & Continue <i class="fas fa-arrow-right"></i></button>
+                          </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="qualification" role="tabpanel" aria-labelledby="qualification-tab3">
+                          <div class="card-body">
+                            <div id="sslc">
+                              <h5 class="sectiontitle">SSLC Educational Qualification</h5>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Date of Publication of Result <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="date" class="form-control" >
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Name of the Board<span class="required ml-1">*</span> </label>
+                                    <select class="form-control selectric">
+                                      <option selected="selected" value=""> - Select your State Boards -</option>
+                                      <option value="SB">State Boards</option>
+                                      <option value=" CBSE"> CBSE</option>
+                                      <option value=" ICSE"> ICSE</option>
+                                      <option value=" CISCE"> CISCE</option>
+                                      <option value=" NIOS"> NIOS</option>
+                                      <option value=" IB"> IB</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Certificate Number <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-book-atlas"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Certificate Number">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Max Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-book-reader"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Max Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Obtain Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Obtain Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Percentage of Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Percentage of Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id"hsc">
+                              <h5 class="sectiontitle">HSC / Diploma / ITI / Teacher Training</h5>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Date of Publication of Result <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="date" class="form-control" >
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Name of the Course<span class="required ml-1">*</span> </label>
+                                    <select class="form-control selectric">
+                                      <option selected="selected" value="">-Select your course-</option>
+                                      <option value="1">HSC/SENIOR SECONDARY CERTIFICATE/INTERMEDIATE/PRE UNIVERSITY</option>
+                                      <option value="1">DIPLOMA (3 Y3ARS COURES)</option>
+                                      <option value="2">ITI (2 YEARS COURSE)</option>
+                                      <option value="3">TEACHER TRAINING (2 YEARS COURSE)</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group ">
+                                    <label>Name of the Diploma / I.T.I Course <span class="required ml-1">*</span> </label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-school"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Diploma / I.T.I Coursess" draggable="true" disabled>
+                                    </div>
+                                    <div id="emailHelp" class="form-text">Only for Diploma / I.T.I Students</div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Name of the Board<span class="required ml-1">*</span> </label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-school"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Board">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Certificate Number <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-book-atlas"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Certificate Number">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Max Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-book-reader"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Max Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Obtain Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Obtain Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Percentage of Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Percentage of Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id"upg">
+                              <h5 class="sectiontitle">UG Degree / PG Degree</h5>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Date of Publication of Result <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="date" class="form-control" >
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Name of the Course<span class="required ml-1">*</span> </label>
+                                    <select class="form-control selectric">
+                                      <option selected="selected" value="">-Select your course-</option>
+                                      <option value="1">UNDERGRADUATE COURSE</option>
+                                      <option value="2">POSTGRADUATE COURSE</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group ">
+                                    <label>Name of the Degrees <span class="required ml-1">*</span> </label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-school"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Degrees">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Name of the Board / University<span class="required ml-1">*</span> </label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-school"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Board / University">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Certificate Number <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-book-atlas"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Certificate Number">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Max Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-book-reader"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Max Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Obtain Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Obtain Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Percentage of Marks <span class="required ml-1">*</span></label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"> <i class="fas fa-user"></i> </div>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Enter your Percentage of Marks">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                  <label class="form-check-label" for="flexCheckChecked"> I Certify that the above Particulars are found correct. Iam aware that the Particulars furnished furnished by me cannot be edited after submission of this application. </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class=" d-flex btn-edit mt-4">
+							              <button class="btn btn-success mr-auto" style="margin-right: 43%">Back to page <i class="fas fa-arrow-right"></i></button>
+							  	          <button class="btn btn-info mr-2">Save & Continue <i class="fas fa-arrow-right"></i></button>
+                          
+							
+							            </div>
+                        </div>
+                        <div class="tab-pane fade" id="dupload" role="tabpanel" aria-labelledby="dupload-tab3">
+                          <div class="card-header">
+                            <h4 class="sectiontitle">Kindly Select and Upload Both Photo and Signature.</h4>
+                          </div>
+                          <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                              <div class="card">
+                                <div class="card-header">
+                                  <h4>Photo</h4>
+                                </div>
+                                <div class="card-body photo-file">
+                                  <div class="empty-state p-0 " >
+                                    <div class="guideline  photo"> <img class="simg-responsive center-block d-block mx-auto" src="../img/news/Photo.jpg" id="photo" alt=""> </div>
+                                    <div class="js box image-upload">
+                                      <input type="file" name="file-1[]" id="file-1" onchange="readURL(this);" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple />
+                                      <label for="file-1"><i class="fas fa-upload mr-2"></i><span>Choose a Photo</span></label>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-1 mb-3">Save Photo</a> <!--<a href="#" class="mt-4 bb">Remove Photo</a>-->
+                                    <div class="guideline">
+                                      <h6>This page contains some guideline for photo uploadings.</h6>
+                                      <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"s>The paper should then be scanned to obtain a resolution of 200 DPI.</li>
+                                        <li class="list-group-item">Image Format – JPEG PNG GIF</li>
+                                        <li class="list-group-item">Photo File Dimensions: 252px X 324px (35 mm x 45 mm) (3.5 cm x 4.5 cm)</li>
+                                        <li class="list-group-item">Photo File Size of Image – Minimum 50 KB – Maximum 100 KB</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                              <div class="card">
+                                <div class="card-header">
+                                  <h4>Signature</h4>
+                                </div>
+                                <div class="card-body photo-file">
+                                  <div class="empty-state p-0" >
+                                    <div class="signature-mt"></div>
+                                    <div class="signature"> <img class="img-responsive center-block d-block mx-auto" src="../img/news/signature.jpg" id="signature" alt=""> </div>
+                                    <div class=" js box image-upload ">
+                                      <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple />
+                                      <label for="file-1"><i class="fas fa-upload mr-2"></i><span>Choose a signature</span></label>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-1 mb-3">Save signature</a> <!--<a href="#" class="mt-4 bb">Remove Signature</a>-->
+                                
+                                    <div class="guideline">
+                                      <h6>This page contains some guideline for photo uploadings.</h6>
+                                      <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"s>The paper should then be scanned to obtain a resolution of 200 DPI.</li>
+                                        <li class="list-group-item">Image Format – JPEG PNG GIF</li>
+                                        <li class="list-group-item">Photo File Dimensions: 432px X 144px (60 mm x 20 mm) (6.0 cm x 2.0 cm)</li>
+                                        <li class="list-group-item">Photo File Size of Image – Minimum 10 KB – Maximum 20 KB</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row" id="educational">
+                            <div class="col-md-12">
+                              <h5 class="sectiontitle mt-3">Kindly Select and Upload Certificate </h5>
+                              <div class="card">
+                                <div class="card-body">
+                                  <div class="guideline js certificate mt-5"> <img class="simg-responsive center-block d-block mx-auto" src="../img/news/Photo-max.jpg" id="certificate" alt="">
+                                    <div class="box image-upload">
+                                      <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple />
+                                      <label for="file-1"><i class="fas fa-upload mr-2"></i><span>Choose a Certificate</span></label>
+                                    </div>
+                                    <h6>This page contains some guideline for Certificates uploadings.</h6>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item"s>The paper should then be scanned to obtain a resolution of 200 DPI.</li>
+                                      <li class="list-group-item">Image Format – JPEG PNG GIF</li>
+                                      <li class="list-group-item">Photo File Dimensions: 480x X 640px (40.64 mm x 54.19 mm) (4.06 cm x 5.42 cm)</li>
+                                      <li class="list-group-item">Photo File Size of Image – Minimum 100 KB – Maximum 150 KB</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked"> I Certify that the above Particulars are found correct. Iam aware that the Particulars furnished furnished by me cannot be edited after submission of this application. </label>
+                              </div>
+                            </div>
+                          </div>
+						    <div class=" d-flex btn-edit mt-4">
+							     <button class="btn btn-success mr-auto" style="margin-right: 43%">Back to page <i class="fas fa-arrow-right"></i></button>
+							  	    <button class="btn btn-info mr-2">Save & Continue <i class="fas fa-arrow-right"></i></button>
+                          
+							
+							    </div>
+						
+                      
+                        </div>
+                        <div class="tab-pane fade" id="payments" role="tabpanel" aria-labelledby="payments-tab3">
+                          <div class="card-body">
+                            <div class="row preview-panel-bg">
+                              <div class="col-md-10 top_counter">
+                                <div class="college-logo "> <img s src="../img/brand/college/Madras_Christian_College_Logo.png"> </div>
+                                <div class="content ml-3 mt-3">
+                                  <h5 class="mb-1">Madras christian college</h5>
+                                  <h6 class="m-0">An Autonomous Institution affiliated to the University of Madras</h6>
+                                  <p>Tamil Nadu Chennai - 600 045</p>
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <div class="preview-Photo text-right"> <img s src="../img/news/Photo-max-b.jpg"> </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Online Application ID </label>
+                                  <lable  class="form-control ">SVU-MCC0221342345</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Study Centre Name </label>
+                                  <lable  class="form-control ">0111 - L.N.  GOVERNMENT COLLEGE, PONNERI</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Course Type </label>
+                                  <lable  class="form-control ">UNDERGRADUATE</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Course Names </label>
+                                  <lable  class="form-control ">B.Sc. Visual Communication</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Applicant’s Name <span class="required ml-1">*</span></label>
+                                  <lable  class="form-control ">BALAMANI C</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Parent’s / Guardian Name <span class="required ml-1">*</span></label>
+                                  <lable  class="form-control ">Chevatkodiyan</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Date of Birth </label>
+                                  <lable  class="form-control ">31-DEC-2000</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Gender</label>
+                                  <lable  class="form-control ">Male</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Phone Number </label>
+                                  <lable  class="form-control ">+91 1234567890</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Alternate phone number</label>
+                                  <lable  class="form-control ">+91 1234567890</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Aadhaar Number </label>
+                                  <lable  class="form-control ">1234 5678 9012</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Email Id </label>
+                                  <lable  class="form-control ">studentcollage@gmail.com</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <h5 class="sectiontitle">Special Category </h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Religion <span class="required ml-1">*</span></label>
+                                  Hinduism.
+                                  <lable  class="form-control "> Hinduism</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Communal Category: <span class="required ml-1">*</span></label>
+                                  <lable  class="form-control "> Backward Class (BC)</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Are you a Differently Abled Person <span class="required ml-1">*</span></label>
+                                  <lable  class="form-control "> No</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Martial Status: <span class="required ml-1">*</span></label>
+                                  <lable  class="form-control "> Yes</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Nationality </label>
+                                  <lable  class="form-control "> Indian</lable>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label>Second Language </label>
+                                  <lable  class="form-control ">Yes</lable>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <h5 class="sectiontitle mt-3">Communication Details </h5>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <h5 class="sectiontitle mt-3">Educational Certificate Details </h5>
+                              </div>
+                            </div>
+                            <div id="sslc">
+                              <h6 class="">SSLC Educational Qualification</h6>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Date of Publication of Result </label>
+                                    <lable  class="form-control "> 21-May-2018</lable>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Name of the Board </label>
+                                    <lable  class="form-control "> CBSE</lable>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Certificate Number <span class="required ml-1">*</span></label>
+                                    <lable  class="form-control "> 12345678</lable>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Max Marks <span class="required ml-1">*</span></label>
+                                    <lable  class="form-control "> 500</lable>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Obtain Marks <span class="required ml-1">*</span></label>
+                                    <lable  class="form-control "> 489</lable>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Percentage of Marks <span class="required ml-1">*</span></label>
+                                    <lable  class="form-control "> 97%</lable>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                  <label class="form-check-label" for="flexCheckChecked"> I Certify that the above Particulars are found correct. Iam aware that the Particulars furnished furnished by me cannot be edited after submission of this application. </label>
+                                </div>
+                              </div>
+                            </div>
+						      <div class=" d-flex btn-edit">
+							     <button class="btn btn-success mr-auto" style="margin-right: 43%">Edit to Application <i class="fas fa-arrow-right"></i></button>
+							  	    <button class="btn btn-info mr-2">Save & Continue <i class="fas fa-arrow-right"></i></button>
+                              <button class="btn btn-primary">Payment to Continue <i class="fas fa-arrow-right"></i></button>
+							    </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+    </div>
+  </main>

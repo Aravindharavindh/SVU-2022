@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SVUStudent</title>
+
+    <link rel="stylesheet" href="../modules/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../modules/fontawesome/css/all.min.css">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="../modules/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="../modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+    <link rel="stylesheet" href="~/modules/datatables/datatables.min.css">
+    <link rel="stylesheet" href="../modules/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="../modules/jquery-selectric/selectric.css">
+    <link rel="stylesheet" href="../modules/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="../modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../css/components.css">
+    
+</head>
+<body class="layout-3">
+    <main id="app">
+        <div class="main-wrapper container">
+            <nav class="navbar navbar-expand-lg main-navbar navbar-bg">
+		        <div class="container">
+                    <a href="Index" class="navbar-brand sidebar-gone-hide"><img src="../img/brand/logo-t.png"></a>
+                    <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
+                <div class="ml-auto">
+                  <div class="nav-collapse">
+                  <a class="sidebar-gone-show nav-collapse-toggle nav-link" href="#">
+                    <i class="fas fa-ellipsis-v"></i>
+                  </a>
+                  <div class="section-header-breadcrumb mt-2 c-white">
+                    <div class="breadcrumb-item active">Welcome : <span>Bhakthavatsala</span></div>
+                  </div>
+                  <ul class="navbar-nav">
+			         <li class="nav-item ml-2"><a href="login" class="nav-link btn btn-outline-primary ">Logout</a></li>
+                  </ul>
+                  </div>
+                </div>
+            </div>    
+            </nav>
+            <nav class="navbar navbar-secondary navbar-expand-lg">
+              <div class="container">
+                <ul class="navbar-nav ml-3">
+                  <li class="nav-item active"><a href="Index" class="nav-link"> <i class="fas fa-id-badge"></i><span>Dashboard</span></a></li>
+                  <li class="nav-item "><a href="FeeDetails" class="nav-link"><i class="fa-solid fa-book"></i><span>Fee Payment</span></a></li>
+                  <li class="nav-item"><a href="Apply-examination" class="nav-link"><i class="fas fa-pencil-square"></i><span>Apply Examination</span></a></li>
+                  <li class="nav-item"><a href="Profile" class="nav-link"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                </ul>
+                <div class="text-md-right ml-3 ">
+                  <div class="float-lg-left mb-3 mt-3">
+                    <button class="btn btn-danger btn-icon icon-left "><i class="fas fa-arrow-circle-left"></i> Back</button>
+                  </div>
+                </div> 
+              </div>
+            </nav>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="main-footer">
+      <div class="footer-left"> Copyright &copy; 2022
+        <div class="bullet"></div>
+        Design By Avia Technologies <a href="#"></a> </div>
+      <div class="footer-right"> </div>
+    </footer>
+
+        </div>
+    </main>
+
+    <script src="../modules/jquery.min.js"></script> 
+    <script src="../modules/popper.js"></script> 
+    <script src="../modules/tooltip.js"></script> 
+    <script src="../modules/bootstrap/js/bootstrap.min.js"></script> 
+    <script src="../modules/nicescroll/jquery.nicescroll.min.js"></script> 
+    <script src="../modules/moment.min.js"></script> 
+    <script src="../js/stisla.js"></script> 
+
+    <!-- JS Libraies --> 
+    <script src="../modules/cleave-js/dist/cleave.min.js"></script> 
+    <script src="../modules/cleave-js/dist/addons/cleave-phone.us.js"></script> 
+    <script src="../modules/jquery-pwstrength/jquery.pwstrength.min.js"></script> 
+    <script src="../modules/bootstrap-daterangepicker/daterangepicker.js"></script> 
+    <script src="../modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script> 
+    <script src="../modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script> 
+    <script src="../modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script> 
+    <script src="~/modules/datatables/datatables.min.js"></script> 
+    <script src="../modules/select2/dist/js/select2.full.min.js"></script> 
+    <script src="../modules/jquery-selectric/jquery.selectric.min.js"></script> 
+   
+
+    <!-- Page Specific JS File --> 
+    <script src="../js/page/forms-advanced-forms.js"></script> 
+
+    <!-- Template JS File --> 
+    <script src="../js/scripts.js"></script> 
+    <script src="../js/custom.js"></script>
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

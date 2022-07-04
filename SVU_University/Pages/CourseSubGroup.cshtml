@@ -1,0 +1,78 @@
+﻿@page
+@model SVU_University.Pages.CourseSubGroupModel
+@{
+    ViewData["Title"] = "CourseSubGroupList";
+}
+
+        <div class="section-body">
+          <h2 class="section-title"> Course SubGroup Details </h2>
+          <div class="container-fluid">
+            <div class="tab-content">
+             
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Course SubGroup Code">
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Course SubGroup Title">
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="form-group">
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> Select Course Group </option>
+                                <option value="1"> B.Com (Accounts) </option>
+                                <option value="2"> M.Com (Finance) </option>
+                                <option value="3"> B.A (English) </option>
+                              </select>
+                            </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="form-group">
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> Select Status </option>
+                                <option value="1"> Available </option>
+                                <option value="2"> Blocked </option>
+                                <option value="3"> Deleted </option>
+                                <option value="4"> Removed </option>
+                              </select>
+                            </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6"> <a href="#" class="btn btn-primary btn-lg btn-block" title="">Search</a> </div>
+                      <div class="col-lg-1 col-md-4 col-sm-6 mt-1"> <a href="CourseSubGroupAdd" class="btn btn-outline-primary btn-rounded "> Add New <i class="fa-solid fa-plus"></i> </a> </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-responsive card">
+                  <table class="table table-hover table-vcenter table-striped mb-0 text-nowrap" data-list="">
+                    <thead>
+                      <tr>
+                        <th>Course SubGroup Code</th>
+                        <th>Course SubGroup Title</th>
+                        <th>Course Group</th>
+                        <th>Status </th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td> B.Com </td>
+                        <td> Bachelor of Commerce </td>
+                        <td> B.Com (Accounts) </td>
+                        <td> Deleted </td>
+                        <td>  <a href="CourseSubGroupView" class="btn btn-icon text-dark btn-sm" title="View"><i class="fa fa-eye"></i></a> 
+                              <a href="Course SubGroupUpdate" class="btn btn-icon btn-sm" title="Edit"><i class="fa fa-edit"></i></a> 
+                              <a href="CourseSubGroupDelete" class="btn btn-sm js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash text-danger"></i></a> 
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+          </div>
+        </div>

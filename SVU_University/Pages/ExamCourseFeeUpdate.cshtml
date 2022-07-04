@@ -1,0 +1,107 @@
+﻿@page
+@model SVU_University.Pages.ExamCourseFeeUpdateModel
+@{
+    ViewData["Title"] = "ExamCourseFeeUpdate";
+}
+
+        <div class="section-body">
+          <h2 class="section-title"> Update Exam Course Fee Details </h2>
+          <div class="row">
+            <div class="tab-content col-xl-12 col-lg-12 col-md-12 col-sm-12 m-auto">
+              <div class="card">
+                <div class="card-body">
+                  <div class="tab-content" id="myTabContent2">
+                    <div class="tab-pane fade show active" id="aform" role="tabpanel" aria-labelledby="aform-tab3">
+                        
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label> ID <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control " placeholder="05"> 
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label> Examination Code <span class="required ml-1">*</span></label>
+                              <input type="text" class="form-control " placeholder="001Eng"> 
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Exam Course Group<span class="required ml-1">*</span> </label>
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> B.Com (Accounts) </option>
+                                <option value="1"> B.Com (Accounts) </option>
+                                <option value="2"> M.Com (Finance) </option>
+                                <option value="3"> B.A (English) </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Minimum Subject Count <span class="required ml-1">*</span></label>
+                              <input type="number" class="form-control " placeholder="2"> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Maximum Subject Count <span class="required ml-1">*</span></label>
+                              <input type="number" class="form-control " placeholder="5"> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label> Fee Amount <span class="required ml-1">*</span></label>
+                              <input type="number" class="form-control " placeholder="₹ 1500"> 
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label>Fee Group<span class="required ml-1">*</span> </label>
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> Exam Fee </option>
+                                <option value="1"> Term Fee </option>
+                                <option value="2"> Exam Fee </option>
+                                <option value="3"> Lab Fee </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label>Academic Period Index<span class="required ml-1">*</span> </label>
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> 3 </option>
+                                <option value="1"> 1 </option>
+                                <option value="2"> 2 </option>
+                                <option value="3"> 3 </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label>Status<span class="required ml-1">*</span> </label>
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> Available </option>
+                                <option value="1"> Available </option>
+                                <option value="2"> Blocked </option>
+                                <option value="3"> Deleted </option>
+                                <option value="4"> Removed </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                             <a href="ExamCourseFee" class="btn btn-dark"> <i class="fas fa-arrow-left"></i> Back </a>
+                          </div> 
+                          <div class="col-md-6 text-right">
+                              <button class="btn btn-primary btnNext text-end"> Update <i class="fas fa-arrow-right"></i></button>
+                          </div>
+                        </div>																
+                      </div>
+                    </div>															
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>

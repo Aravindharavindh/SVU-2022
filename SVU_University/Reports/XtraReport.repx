@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.2.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Margins="10, 14, 40, 35" PaperKind="A4" PageWidth="827" PageHeight="1169" Version="19.2" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="TopMargin" HeightF="40" />
+    <Item2 Ref="2" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="35" />
+    <Item3 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="1105.05261" />
+  </Bands>
+</XtraReportsLayoutSerializer>

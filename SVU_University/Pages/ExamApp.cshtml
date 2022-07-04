@@ -1,0 +1,79 @@
+﻿@page
+@model SVU_University.Pages.ExamAppModel
+@{
+    ViewData["Title"] = "ExamAppList";
+}
+
+        <div class="section-body">
+          <h2 class="section-title"> Examination Application Details </h2>
+          <div class="container-fluid">
+            <div class="tab-content">
+             
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                         <div class="input-group">
+                          <input type="text" class="form-control" placeholder="ID">
+                        </div>  
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                         <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Code">
+                        </div>  
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                         <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Admission No.">
+                        </div>  
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="form-group">
+                              <select class="form-control select2" data-placeholder="Status">
+                                <option value="0" selected> Select Status </option>
+                                <option value="1"> Available </option>
+                                <option value="2"> Blocked </option>
+                                <option value="3"> Deleted </option>
+                                <option value="4"> Removed </option>
+                              </select>
+                            </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6"> <a href="#" class="btn btn-primary btn-lg btn-block" title="">Search</a> </div>
+                      <div class="col-lg-1 col-md-4 col-sm-6 mt-1"> <a href="ExamAppAdd" class="btn btn-outline-primary btn-rounded "> Add New <i class="fa-solid fa-plus"></i> </a> </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-responsive card">
+                  <table class="table table-hover table-vcenter table-striped mb-0 text-nowrap" data-list="">
+                    <thead>
+                      <tr>
+                        <th>ID</th>    
+                        <th>Code</th>
+                        <th>Admission No.</th>
+                        <th>Examination Code</th>
+                        <th>Course Group</th>
+                        <th>Academic Period Index </th>
+                        <th>Status </th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td> 05 </td>
+                        <td> App001 </td>
+                        <td> Ad20011001 </td>
+                        <td> 001Eng </td>
+                        <td> B.Com(Accounts) </td>
+                        <td> 3 </td>
+                        <td> Available </td>
+                        <td>  <a href="ExamAppView" class="btn btn-icon text-dark btn-sm" title="View"><i class="fa fa-eye"></i></a> 
+                              <a href="ExamAppUpdate" class="btn btn-icon btn-sm" title="Edit"><i class="fa fa-edit"></i></a> 
+                              <a href="ExamAppDelete" class="btn btn-sm js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash text-danger"></i></a> 
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+          </div>
+        </div>

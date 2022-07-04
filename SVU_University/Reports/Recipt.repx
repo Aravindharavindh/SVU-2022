@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.2.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Recipt" Landscape="true" Margins="17, 22, 0, 0" PaperKind="A4" PageWidth="1169" PageHeight="827" Version="19.2" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="TopMargin" HeightF="0" />
+    <Item2 Ref="2" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="0" />
+    <Item3 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="1118.14136">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRTable" Name="table1" SizeF="1128.4165,1105.05261" LocationFloat="0, 0" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="5" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="6" ControlType="XRTableCell" Name="tableCell1" Weight="1.4826136832001535" Multiline="true">
+                  <Controls>
+                    <Item1 Ref="7" ControlType="XRTable" Name="table17" SizeF="369.916626,61.482666" LocationFloat="10.0000038, 1014.62152" Padding="7,7,0,0,100" Borders="All">
+                      <Rows>
+                        <Item1 Ref="8" ControlType="XRTableRow" Name="tableRow37" Weight="1">
+                          <Cells>
+                            <Item1 Ref="9" ControlType="XRTableCell" Name="tableCell62" Weight="1" Multiline="true" Text="The Challan copy should be Submitted Immediately to the DDE office after making the payment." TextAlignment="MiddleCenter" Font="Arial, 12pt">
+                              <StylePriority Ref="10" UseFont="false" UseTextAlignment="false" />
+                            </Item1>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="11" UsePadding="false" UseBorders="false" />
+                    </Item1>
+                    <Item2 Ref="12" ControlType="XRTable" Name="table16" SizeF="388.4159,592.777649" LocationFloat="0.688922048, 254.129028" Borders="All">
+                      <Rows>
+                        <Item1 Ref="13" ControlType="XRTableRow" Name="tableRow13" Weight="1">
+                          <Cells>
+                            <Item1 Ref="14" ControlType="XRTableCell" Name="tableCell18" Weight="0.29660976465970379" Multiline="true" Text="Receipt No." TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="15" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="16" ControlType="XRTableCell" Name="tableCell19" Weight="0.70339023534029621" Multiline="true" Text="14327" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="17" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item1>
+                        <Item2 Ref="18" ControlType="XRTableRow" Name="tableRow14" Weight="1">
+                          <Cells>
+                            <Item1 Ref="19" ControlType="XRTableCell" Name="tableCell20" Weight="0.29660976465970379" Multiline="true" Text="Name" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="20" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="21" ControlType="XRTableCell" Name="tableCell21" Weight="0.70339023534029621" Multiline="true" Text="JAGANNADHA REDDY S" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="22" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item2>
+                        <Item3 Ref="23" ControlType="XRTableRow" Name="tableRow15" Weight="1">
+                          <Cells>
+                            <Item1 Ref="24" ControlType="XRTableCell" Name="tableCell22" Weight="0.29660976465970379" Multiline="true" Text="Date of Birth" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="25" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="26" ControlType="XRTableCell" Name="tableCell23" Weight="0.70339023534029621" Multiline="true" Text="24 Mar 1976" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="27" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item3>
+                        <Item4 Ref="28" ControlType="XRTableRow" Name="tableRow34" Weight="1">
+                          <Cells>
+                            <Item1 Ref="29" ControlType="XRTableCell" Name="tableCell64" Weight="0.29660976465970379" Multiline="true" Text="Gender" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="30" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="31" ControlType="XRTableCell" Name="tableCell65" Weight="0.70339023534029621" Multiline="true" Text="Male" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="32" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item4>
+                        <Item5 Ref="33" ControlType="XRTableRow" Name="tableRow16" Weight="1">
+                          <Cells>
+                            <Item1 Ref="34" ControlType="XRTableCell" Name="tableCell24" Weight="0.29660976465970379" Multiline="true" Text="Study Centre" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="35" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="36" ControlType="XRTableCell" Name="tableCell25" Weight="0.70339023534029621" Multiline="true" Text="246 - VISWESWARA SCIENCE &amp; ARTS COLLEGE" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="37" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item5>
+                        <Item6 Ref="38" ControlType="XRTableRow" Name="tableRow17" Weight="1">
+                          <Cells>
+                            <Item1 Ref="39" ControlType="XRTableCell" Name="tableCell26" Weight="0.29660976465970379" Multiline="true" Text="Year" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="40" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="41" ControlType="XRTableCell" Name="tableCell27" Weight="0.70339023534029621" Multiline="true" Text="1st Year" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="42" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item6>
+                        <Item7 Ref="43" ControlType="XRTableRow" Name="tableRow18" Weight="1">
+                          <Cells>
+                            <Item1 Ref="44" ControlType="XRTableCell" Name="tableCell28" Weight="0.29660976465970379" Multiline="true" Text="Course Name" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="45" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="46" ControlType="XRTableCell" Name="tableCell29" Weight="0.70339023534029621" Multiline="true" Text="M.Sc. Methamatics" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="47" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item7>
+                        <Item8 Ref="48" ControlType="XRTableRow" Name="tableRow19" Weight="1">
+                          <Cells>
+                            <Item1 Ref="49" ControlType="XRTableCell" Name="tableCell30" Weight="0.29660976465970379" Multiline="true" Text="Admission No." TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="50" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="51" ControlType="XRTableCell" Name="tableCell31" Weight="0.70339023534029621" Multiline="true" Text="246120280005" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="52" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item8>
+                        <Item9 Ref="53" ControlType="XRTableRow" Name="tableRow20" Weight="1">
+                          <Cells>
+                            <Item1 Ref="54" ControlType="XRTableCell" Name="tableCell32" Weight="0.29660976465970379" Multiline="true" Text="Journal No." TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="55" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="56" ControlType="XRTableCell" Name="tableCell59" Weight="0.70339023534029621" Multiline="true" Text="00121861" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="57" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item9>
+                        <Item10 Ref="58" ControlType="XRTableRow" Name="tableRow36" Weight="1">
+                          <Cells>
+                            <Item1 Ref="59" ControlType="XRTableCell" Name="tableCell60" Weight="0.29660976465970379" Multiline="true" Text="Fee " TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="60" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="61" ControlType="XRTableCell" Name="tableCell61" Weight="0.70339023534029621" Multiline="true" Text="₹ 2060" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="62" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item10>
+                      </Rows>
+                      <StylePriority Ref="63" UseBorders="false" />
+                    </Item2>
+                    <Item3 Ref="64" ControlType="XRTable" Name="table3" SizeF="389.9274,49.193573" LocationFloat="0, 200.620972">
+                      <Rows>
+                        <Item1 Ref="65" ControlType="XRTableRow" Name="tableRow3" Weight="1">
+                          <Cells>
+                            <Item1 Ref="66" ControlType="XRTableCell" Name="tableCell9" Weight="1.0812741774402177" Multiline="true" />
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                    </Item3>
+                    <Item4 Ref="67" ControlType="XRTable" Name="table9" SizeF="389.104828,37.0000153" LocationFloat="0, 159.282242" Borders="All">
+                      <Rows>
+                        <Item1 Ref="68" ControlType="XRTableRow" Name="tableRow11" Weight="1">
+                          <Cells>
+                            <Item1 Ref="69" ControlType="XRTableCell" Name="tableCell14" Weight="0.48913244921522214" Multiline="true" Text="Date :" TextAlignment="MiddleLeft" Font="Arial, 12pt, style=Bold" Padding="7,2,0,0,100">
+                              <StylePriority Ref="70" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="71" ControlType="XRTableCell" Name="tableCell15" Weight="1.0812741774402177" Multiline="true" Text="22 - 06 - 2022" TextAlignment="MiddleLeft" Font="Arial, 12pt, style=Bold" Padding="7,2,0,0,100">
+                              <StylePriority Ref="72" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                            <Item3 Ref="73" ControlType="XRTableCell" Name="tableCell16" Weight="1.3105168486781444" Multiline="true" Text="Office Copy" TextAlignment="MiddleRight" Font="Arial, 12pt, style=Bold" Padding="2,7,0,0,100">
+                              <StylePriority Ref="74" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item3>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="75" UseBorders="false" />
+                    </Item4>
+                    <Item5 Ref="76" ControlType="XRLine" Name="line2" LineStyle="DashDot" SizeF="388.677277,12.8648529" LocationFloat="0.427553743, 141.0645" />
+                    <Item6 Ref="77" ControlType="XRTable" Name="table2" SizeF="389.927368,122.782265" LocationFloat="0, 11" Padding="2,2,0,0,96">
+                      <Rows>
+                        <Item1 Ref="78" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+                          <Cells>
+                            <Item1 Ref="79" ControlType="XRTableCell" Name="tableCell4" Weight="0.26529089911583587" Multiline="true">
+                              <Controls>
+                                <Item1 Ref="80" ControlType="XRPictureBox" Name="pictureBox1" ImageUrl="wwwroot\img\news\logo.jpeg" Sizing="ZoomImage" SizeF="99.3829956,86.1855" LocationFloat="3.0000267, 11.9999924" />
+                              </Controls>
+                            </Item1>
+                            <Item2 Ref="81" ControlType="XRTableCell" Name="tableCell7" Weight="0.73470910088416419" Multiline="true">
+                              <Controls>
+                                <Item1 Ref="82" ControlType="XRTable" Name="table8" SizeF="285.310669,75" LocationFloat="0.4111328, 23.1854839">
+                                  <Rows>
+                                    <Item1 Ref="83" ControlType="XRTableRow" Name="tableRow8" Weight="1">
+                                      <Cells>
+                                        <Item1 Ref="84" ControlType="XRTableCell" Name="tableCell11" Weight="1" Multiline="true" Text="SRI VENKATESWARA UNIVERSITY" TextAlignment="MiddleCenter" Font="Arial, 12pt, style=Bold">
+                                          <StylePriority Ref="85" UseFont="false" UseTextAlignment="false" />
+                                        </Item1>
+                                      </Cells>
+                                    </Item1>
+                                    <Item2 Ref="86" ControlType="XRTableRow" Name="tableRow9" Weight="1">
+                                      <Cells>
+                                        <Item1 Ref="87" ControlType="XRTableCell" Name="tableCell12" Weight="1" Multiline="true" Text="DIRECTORATE OF DISTANCE EDUCATION" TextAlignment="MiddleCenter" Font="Arial, 12pt, style=Bold">
+                                          <StylePriority Ref="88" UseFont="false" UseTextAlignment="false" />
+                                        </Item1>
+                                      </Cells>
+                                    </Item2>
+                                    <Item3 Ref="89" ControlType="XRTableRow" Name="tableRow10" Weight="1">
+                                      <Cells>
+                                        <Item1 Ref="90" ControlType="XRTableCell" Name="tableCell13" Weight="1" Multiline="true" Text="Tirupati" TextAlignment="MiddleCenter" Font="Arial, 12pt, style=Bold">
+                                          <StylePriority Ref="91" UseFont="false" UseTextAlignment="false" />
+                                        </Item1>
+                                      </Cells>
+                                    </Item3>
+                                  </Rows>
+                                </Item1>
+                              </Controls>
+                            </Item2>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                    </Item6>
+                  </Controls>
+                </Item1>
+                <Item2 Ref="92" ControlType="XRTableCell" Name="tableCell2" Weight="0.04249973079550845" Multiline="true" Borders="None">
+                  <Controls>
+                    <Item1 Ref="93" ControlType="XRLine" Name="line3" LineWidth="3" LineDirection="Vertical" LineStyle="DashDotDot" AnchorVertical="Both" SizeF="11.166626,1105.05249" LocationFloat="3.05175781E-05, 0" Borders="None" BorderWidth="2" BorderDashStyle="DashDot">
+                      <StylePriority Ref="94" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" />
+                    </Item1>
+                  </Controls>
+                  <StylePriority Ref="95" UseBorders="false" />
+                </Item2>
+                <Item3 Ref="96" ControlType="XRTableCell" Name="tableCell3" Weight="1.6634540963942541" Multiline="true">
+                  <Controls>
+                    <Item1 Ref="97" ControlType="XRTable" Name="table12" SizeF="369.9167,61.4827881" LocationFloat="7.978485, 1014.62152" Padding="7,7,0,0,100" Borders="All">
+                      <Rows>
+                        <Item1 Ref="98" ControlType="XRTableRow" Name="tableRow32" Weight="1">
+                          <Cells>
+                            <Item1 Ref="99" ControlType="XRTableCell" Name="tableCell57" Weight="1" Multiline="true" Text="The Challan copy should be Submitted Immediately to the DDE office after making the payment." TextAlignment="MiddleCenter" Font="Arial, 12pt">
+                              <StylePriority Ref="100" UseFont="false" UseTextAlignment="false" />
+                            </Item1>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="101" UsePadding="false" UseBorders="false" />
+                    </Item1>
+                    <Item2 Ref="102" ControlType="XRTable" Name="table11" SizeF="385.4159,592.666443" LocationFloat="0, 253.402283" Borders="All">
+                      <Rows>
+                        <Item1 Ref="103" ControlType="XRTableRow" Name="tableRow23" Weight="1">
+                          <Cells>
+                            <Item1 Ref="104" ControlType="XRTableCell" Name="tableCell39" Weight="0.29286846029882585" Multiline="true" Text="Receipt No." TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="105" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="106" ControlType="XRTableCell" Name="tableCell40" Weight="0.70713153970117415" Multiline="true" Text="14327" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="107" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item1>
+                        <Item2 Ref="108" ControlType="XRTableRow" Name="tableRow24" Weight="1">
+                          <Cells>
+                            <Item1 Ref="109" ControlType="XRTableCell" Name="tableCell41" Weight="0.29286846029882585" Multiline="true" Text="Name" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="110" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="111" ControlType="XRTableCell" Name="tableCell42" Weight="0.70713153970117415" Multiline="true" Text="JAGANNADHA REDDY S" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="112" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item2>
+                        <Item3 Ref="113" ControlType="XRTableRow" Name="tableRow25" Weight="1">
+                          <Cells>
+                            <Item1 Ref="114" ControlType="XRTableCell" Name="tableCell43" Weight="0.29286846029882585" Multiline="true" Text="Date of Birth" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="115" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="116" ControlType="XRTableCell" Name="tableCell44" Weight="0.70713153970117415" Multiline="true" Text="24 Mar 1976" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="117" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item3>
+                        <Item4 Ref="118" ControlType="XRTableRow" Name="tableRow35" Weight="1">
+                          <Cells>
+                            <Item1 Ref="119" ControlType="XRTableCell" Name="tableCell66" Weight="0.29286846029882585" Multiline="true" Text="Gender" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="120" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="121" ControlType="XRTableCell" Name="tableCell67" Weight="0.70713153970117415" Multiline="true" Text="Male" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="122" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item4>
+                        <Item5 Ref="123" ControlType="XRTableRow" Name="tableRow26" Weight="1">
+                          <Cells>
+                            <Item1 Ref="124" ControlType="XRTableCell" Name="tableCell45" Weight="0.29286846029882585" Multiline="true" Text="Study Centre" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="125" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="126" ControlType="XRTableCell" Name="tableCell46" Weight="0.70713153970117415" Multiline="true" Text="246 - VISWESWARA SCIENCE &amp; ARTS COLLEGE" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="127" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item5>
+                        <Item6 Ref="128" ControlType="XRTableRow" Name="tableRow27" Weight="1">
+                          <Cells>
+                            <Item1 Ref="129" ControlType="XRTableCell" Name="tableCell47" Weight="0.29286846029882585" Multiline="true" Text="Year" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="130" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="131" ControlType="XRTableCell" Name="tableCell48" Weight="0.70713153970117415" Multiline="true" Text="1st Year" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="132" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item6>
+                        <Item7 Ref="133" ControlType="XRTableRow" Name="tableRow28" Weight="1">
+                          <Cells>
+                            <Item1 Ref="134" ControlType="XRTableCell" Name="tableCell49" Weight="0.29286846029882585" Multiline="true" Text="Course Name" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="135" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="136" ControlType="XRTableCell" Name="tableCell50" Weight="0.70713153970117415" Multiline="true" Text="M.Sc. Methamatics" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="137" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item7>
+                        <Item8 Ref="138" ControlType="XRTableRow" Name="tableRow29" Weight="1">
+                          <Cells>
+                            <Item1 Ref="139" ControlType="XRTableCell" Name="tableCell51" Weight="0.29286846029882585" Multiline="true" Text="Admission No." TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="140" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="141" ControlType="XRTableCell" Name="tableCell52" Weight="0.70713153970117415" Multiline="true" Text="246120280005" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="142" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item8>
+                        <Item9 Ref="143" ControlType="XRTableRow" Name="tableRow30" Weight="1">
+                          <Cells>
+                            <Item1 Ref="144" ControlType="XRTableCell" Name="tableCell53" Weight="0.29286846029882585" Multiline="true" Text="Journal No." TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="145" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="146" ControlType="XRTableCell" Name="tableCell54" Weight="0.70713153970117415" Multiline="true" Text="00121861" TextAlignment="MiddleLeft" Font="Arial, 11pt" BackColor="WhiteSmoke" Padding="7,2,0,0,100">
+                              <StylePriority Ref="147" UseFont="false" UseBackColor="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item9>
+                        <Item10 Ref="148" ControlType="XRTableRow" Name="tableRow31" Weight="1">
+                          <Cells>
+                            <Item1 Ref="149" ControlType="XRTableCell" Name="tableCell55" Weight="0.29286846029882585" Multiline="true" Text="Fee " TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="150" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="151" ControlType="XRTableCell" Name="tableCell56" Weight="0.70713153970117415" Multiline="true" Text="₹ 2060" TextAlignment="MiddleLeft" Font="Arial, 11pt" Padding="7,2,0,0,100">
+                              <StylePriority Ref="152" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                          </Cells>
+                        </Item10>
+                      </Rows>
+                      <StylePriority Ref="153" UseBorders="false" />
+                    </Item2>
+                    <Item3 Ref="154" ControlType="XRTable" Name="table10" SizeF="385.9274,49.193573" LocationFloat="0, 199.894226">
+                      <Rows>
+                        <Item1 Ref="155" ControlType="XRTableRow" Name="tableRow22" Weight="1">
+                          <Cells>
+                            <Item1 Ref="156" ControlType="XRTableCell" Name="tableCell38" Weight="1.0812741774402177" Multiline="true" />
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                    </Item3>
+                    <Item4 Ref="157" ControlType="XRTable" Name="table7" SizeF="386.104828,37.0000153" LocationFloat="0, 158.6427" Borders="All">
+                      <Rows>
+                        <Item1 Ref="158" ControlType="XRTableRow" Name="tableRow21" Weight="1">
+                          <Cells>
+                            <Item1 Ref="159" ControlType="XRTableCell" Name="tableCell35" Weight="0.48913244921522214" Multiline="true" Text="Date :" TextAlignment="MiddleLeft" Font="Arial, 12pt, style=Bold" Padding="7,2,0,0,100">
+                              <StylePriority Ref="160" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item1>
+                            <Item2 Ref="161" ControlType="XRTableCell" Name="tableCell36" Weight="1.0812741774402177" Multiline="true" Text="22 - 06 - 2022" TextAlignment="MiddleLeft" Font="Arial, 12pt, style=Bold" Padding="7,2,0,0,100">
+                              <StylePriority Ref="162" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item2>
+                            <Item3 Ref="163" ControlType="XRTableCell" Name="tableCell37" Weight="1.3105168486781444" Multiline="true" Text="Remitter's Copy" TextAlignment="MiddleRight" Font="Arial, 12pt, style=Bold" Padding="2,7,0,0,100">
+                              <StylePriority Ref="164" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                            </Item3>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                      <StylePriority Ref="165" UseBorders="false" />
+                    </Item4>
+                    <Item5 Ref="166" ControlType="XRLine" Name="line1" LineStyle="DashDot" SizeF="386.677277,12.8648529" LocationFloat="0, 140.782288" />
+                    <Item6 Ref="167" ControlType="XRTable" Name="table5" SizeF="385.927368,122.782265" LocationFloat="0, 11">
+                      <Rows>
+                        <Item1 Ref="168" ControlType="XRTableRow" Name="tableRow5" Weight="1">
+                          <Cells>
+                            <Item1 Ref="169" ControlType="XRTableCell" Name="tableCell8" Weight="0.26529089911583587" Multiline="true">
+                              <Controls>
+                                <Item1 Ref="170" ControlType="XRPictureBox" Name="pictureBox3" ImageUrl="wwwroot\img\news\logo.jpeg" Sizing="ZoomImage" SizeF="99.3829956,86.1855" LocationFloat="1, 12" />
+                              </Controls>
+                            </Item1>
+                            <Item2 Ref="171" ControlType="XRTableCell" Name="tableCell10" Weight="0.73470910088416419" Multiline="true">
+                              <Controls>
+                                <Item1 Ref="172" ControlType="XRTable" Name="table6" SizeF="283.310669,76" LocationFloat="0, 23">
+                                  <Rows>
+                                    <Item1 Ref="173" ControlType="XRTableRow" Name="tableRow6" Weight="1">
+                                      <Cells>
+                                        <Item1 Ref="174" ControlType="XRTableCell" Name="tableCell17" Weight="1" Multiline="true" Text="SRI VENKATESWARA UNIVERSITY" TextAlignment="MiddleCenter" Font="Arial, 12pt, style=Bold">
+                                          <StylePriority Ref="175" UseFont="false" UseTextAlignment="false" />
+                                        </Item1>
+                                      </Cells>
+                                    </Item1>
+                                    <Item2 Ref="176" ControlType="XRTableRow" Name="tableRow7" Weight="1">
+                                      <Cells>
+                                        <Item1 Ref="177" ControlType="XRTableCell" Name="tableCell33" Weight="1" Multiline="true" Text="DIRECTORATE OF DISTANCE EDUCATION" TextAlignment="MiddleCenter" Font="Arial, 12pt, style=Bold">
+                                          <StylePriority Ref="178" UseFont="false" UseTextAlignment="false" />
+                                        </Item1>
+                                      </Cells>
+                                    </Item2>
+                                    <Item3 Ref="179" ControlType="XRTableRow" Name="tableRow12" Weight="1">
+                                      <Cells>
+                                        <Item1 Ref="180" ControlType="XRTableCell" Name="tableCell34" Weight="1" Multiline="true" Text="Tirupati" TextAlignment="MiddleCenter" Font="Arial, 12pt, style=Bold">
+                                          <StylePriority Ref="181" UseFont="false" UseTextAlignment="false" />
+                                        </Item1>
+                                      </Cells>
+                                    </Item3>
+                                  </Rows>
+                                </Item1>
+                              </Controls>
+                            </Item2>
+                          </Cells>
+                        </Item1>
+                      </Rows>
+                    </Item6>
+                  </Controls>
+                </Item3>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item3>
+    <Item4 Ref="182" ControlType="PageFooterBand" Name="PageFooter" HeightF="52.28265">
+      <Controls>
+        <Item1 Ref="183" ControlType="XRLine" Name="line4" LineWidth="3" LineDirection="Vertical" LineStyle="DashDotDot" SizeF="11.1700134,52.28265" LocationFloat="389.924042, 0" />
+        <Item2 Ref="184" ControlType="XRTable" Name="table13" SizeF="381.5,43.9099159" LocationFloat="405.083282, 5.99995756">
+          <Rows>
+            <Item1 Ref="185" ControlType="XRTableRow" Name="tableRow33" Weight="1">
+              <Cells>
+                <Item1 Ref="186" ControlType="XRTableCell" Name="tableCell58" Weight="1" Multiline="true">
+                  <Controls>
+                    <Item1 Ref="187" ControlType="XRPageInfo" Name="pageInfo2" PageInfo="DateTime" TextFormatString="{0:d MMMM, yyyy h:mm:ss tt}" TextAlignment="MiddleLeft" SizeF="173.401215,31.9099388" LocationFloat="23.8487854, 5.99996567" Padding="2,2,0,0,96">
+                      <StylePriority Ref="188" UseTextAlignment="false" />
+                    </Item1>
+                  </Controls>
+                </Item1>
+                <Item2 Ref="189" ControlType="XRTableCell" Name="tableCell63" Weight="0.934093789607098" Multiline="true" />
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item2>
+        <Item3 Ref="190" ControlType="XRTable" Name="table4" SizeF="387.5,43.9099159" LocationFloat="0, 5.999986" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="191" ControlType="XRTableRow" Name="tableRow4" Weight="1">
+              <Cells>
+                <Item1 Ref="192" ControlType="XRTableCell" Name="tableCell5" Weight="1" Multiline="true">
+                  <Controls>
+                    <Item1 Ref="193" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" TextFormatString="{0:d MMMM, yyyy h:mm:ss tt}" TextAlignment="MiddleLeft" SizeF="174.89534,31.9099388" LocationFloat="22.3546581, 5.999986" Font="Arial, 10pt" Padding="5,2,0,0,100">
+                      <StylePriority Ref="194" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                    </Item1>
+                  </Controls>
+                </Item1>
+                <Item2 Ref="195" ControlType="XRTableCell" Name="tableCell6" Weight="0.96451204055766815" Multiline="true" />
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item3>
+      </Controls>
+    </Item4>
+  </Bands>
+</XtraReportsLayoutSerializer>

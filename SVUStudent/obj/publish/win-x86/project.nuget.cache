@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "847QH5d7cjjPEG+iEO3RGbKTEGrLUDSdKI5d6ahjaD30PH/PWwhku6Dbmo7LaK7J8ZrJVqgcK4YastKPIVqXOg==",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\NetCore\\KSP\\SVUStudent\\SVUStudent\\SVUStudent.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hai\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.23\\microsoft.netcore.app.runtime.win-x86.3.1.23.nupkg.sha512",
+    "C:\\Users\\Hai\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.23\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.23.nupkg.sha512",
+    "C:\\Users\\Hai\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.23\\microsoft.aspnetcore.app.runtime.win-x86.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}

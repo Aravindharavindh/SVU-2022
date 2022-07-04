@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SVUCollege</title>
+
+    <link rel="stylesheet" href="~/modules/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/modules/fontawesome/css/all.min.css">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="~/modules/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="~/modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+    <link rel="stylesheet" href="~/modules/datatables/datatables.min.css">
+    <link rel="stylesheet" href="~/modules/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="~/modules/jquery-selectric/selectric.css">
+    <link rel="stylesheet" href="~/modules/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="~/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/components.css">
+    
+</head>
+<body>
+
+    <div id="app">
+        <div class="main-wrapper main-wrapper-1">
+            <nav class="container-fluid navbar-bg navbar navbar-expand-lg main-navbar">
+              <div class="sidebar-brand"> <a href="index.html"> <img src="../img/brand/logo-t.png"> </a> </div>
+                <ul class="navbar-nav mr-3">
+                  <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+                  <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
+                </ul>
+                  <ul class="navbar-nav navbar-right">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="../img/avatar/avatar-1.png" class="rounded-circle mr-1">
+                      <div class="d-sm-none d-lg-inline-block">MCC</div>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-title">MADRAS CHRISTIAN COLLEGE</div>
+                        <a href="features-profile.html" class="dropdown-item has-icon"> <i class="far fa-user"></i> Profile </a> <a href="features-activities.html" class="dropdown-item has-icon"> <i class="fas fa-bolt"></i> Activities </a> <a href="features-settings.html" class="dropdown-item has-icon"> <i class="fas fa-cog"></i> Settings </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i> Logout </a> </div>
+                    </li>
+                  </ul>
+            </nav>
+
+            <div class="main-sidebar sidebar-style-2 top-navbar">
+              <aside id="sidebar-wrapper">
+                <ul class="sidebar-menu">
+                  <li class="menu-header">Dashboard</li>  
+                  <li class="active"> <a href="Index" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a></li>
+                  <li class="menu-header">Fee</li>
+                  <li> <a href="FeeDetails" class="nav-link"><i class="fas fa-money-check"></i> <span>Term Fee Details </span></a>
+                  <li> <a href="Fee" class="nav-link"><i class="fas fa-credit-card"></i> <span>Fee Payment</span></a>
+                  <li class="menu-header">Exam</li>  
+                  <li> <a href="Apply_Examination" class="nav-link"><i class="fas fa-book"></i> <span>Apply Examination</span></a>
+                  <li class="menu-header">Download</li>  
+                  <li> <a href="Downlaod_Hallticket" class="nav-link"><i class="fas fa-download"></i> <span>Download</span></a>
+                  <li> <a href="Profile" class="nav-link"><i class="fas fa-user"></i> <span>Profile</span></a>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+    
+            
+                <main role="main">
+                    @RenderBody()
+                </main>
+            
+
+            <footer class="main-footer">
+              <div class="footer-left"> Copyright &copy; 2022
+                <div class="bullet"></div>
+                Design By Avia Technologies <a href="#"></a> </div>
+              <div class="footer-right"> </div>
+            </footer>
+
+   </div>
+</div>
+    
+
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <script src="~/modules/jquery.min.js"></script>
+    <script src="~/modules/popper.js"></script> 
+    <script src="~/modules/tooltip.js"></script> 
+    <script src="~/modules/bootstrap/js/bootstrap.min.js"></script> 
+    <script src="~/modules/nicescroll/jquery.nicescroll.min.js"></script>
+
+    <!-- JS Libraies --> 
+    <script src="~/modules/cleave-js/dist/cleave.min.js"></script> 
+    <script src="~/modules/cleave-js/dist/addons/cleave-phone.us.js"></script> 
+    <script src="~/modules/jquery-pwstrength/jquery.pwstrength.min.js"></script> 
+    <script src="~/modules/bootstrap-daterangepicker/daterangepicker.js"></script> 
+    <script src="~/modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script> 
+    <script src="~/modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script> 
+    <script src="~/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script> 
+    <script src="~/modules/datatables/datatables.min.js"></script>
+    <script src="~/modules/select2/dist/js/select2.full.min.js"></script> 
+    <script src="../modules/jquery-selectric/jquery.selectric.min.js"></script>
+
+    <script src="~/js/page/forms-advanced-forms.js"></script> 
+    
+    <!-- Template JS File --> 
+    <script src="~/js/scripts.js"></script> 
+    <script src="~/js/custom.js"></script>
+
+     
+       <script>
+        $(".main-content").css({
+    minHeight: $(window).outerHeight() - 95
+  })
+
+        </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
