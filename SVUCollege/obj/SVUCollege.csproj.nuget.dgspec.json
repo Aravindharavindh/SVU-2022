@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUCollege\\SVUCollege.csproj": {}
+    "E:\\Projects\\github\\SVU-2022\\SVUCollege\\SVUCollege.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUCollege\\SVUCollege.csproj": {
+    "E:\\Projects\\github\\SVU-2022\\SVUCollege\\SVUCollege.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUCollege\\SVUCollege.csproj",
+        "projectUniqueName": "E:\\Projects\\github\\SVU-2022\\SVUCollege\\SVUCollege.csproj",
         "projectName": "SVUCollege",
-        "projectPath": "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUCollege\\SVUCollege.csproj",
+        "projectPath": "E:\\Projects\\github\\SVU-2022\\SVUCollege\\SVUCollege.csproj",
         "packagesPath": "C:\\Users\\Hai\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUCollege\\obj\\",
+        "outputPath": "E:\\Projects\\github\\SVU-2022\\SVUCollege\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

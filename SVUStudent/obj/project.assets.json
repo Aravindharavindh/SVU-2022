@@ -5193,11 +5193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUStudent\\SVUStudent.csproj",
+      "projectUniqueName": "E:\\Projects\\github\\SVU-2022\\SVUStudent\\SVUStudent.csproj",
       "projectName": "SVUStudent",
-      "projectPath": "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUStudent\\SVUStudent.csproj",
+      "projectPath": "E:\\Projects\\github\\SVU-2022\\SVUStudent\\SVUStudent.csproj",
       "packagesPath": "C:\\Users\\Hai\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUStudent\\obj\\",
+      "outputPath": "E:\\Projects\\github\\SVU-2022\\SVUStudent\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

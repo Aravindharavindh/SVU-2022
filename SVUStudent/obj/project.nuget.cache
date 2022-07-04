@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8W9niX//1TWdmXQqohy6cmsfHVAhqjTsU8n/Okts18Y5RCnRcBHDBdbvn/jL9fKhvggFHsw30TuY+Bak6kbnOw==",
+  "dgSpecHash": "cRlaRWjdJ/ynszWJQxNjbn3vB80reVS2t2aHP21Lqp4+T0aQohrji6GfK62PXR7ArkMLwYfdNogFGkgx7OewJw==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\NetCore\\UniversityApplication\\SVUDDE\\SVUStudent\\SVUStudent.csproj",
+  "projectFilePath": "E:\\Projects\\github\\SVU-2022\\SVUStudent\\SVUStudent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hai\\.nuget\\packages\\devexpress.charts\\19.2.6-pre-20006\\devexpress.charts.19.2.6-pre-20006.nupkg.sha512",
     "C:\\Users\\Hai\\.nuget\\packages\\devexpress.charts.core\\19.2.6-pre-20006\\devexpress.charts.core.19.2.6-pre-20006.nupkg.sha512",
